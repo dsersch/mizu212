@@ -88,4 +88,8 @@ footer {
         flex-direction: column;
         gap: 20px
     }
+
+    .logo {
+        margin-bottom: 20px;
+    }
 }
