@@ -125,27 +125,27 @@ ul {
 }
 
 .grid-item-1 {
-    background-image: url('./images/1C8A0952.jpg');
+    background-image: url('./images/fulltable.jpg');
     grid-row: span 2;
     grid-column: span 2;
 }
 
 .grid-item-2 {
-    background-image: url('./images/1C8A0841.jpg');
+    background-image: url('./images/meatplate.jpg');
     grid-row: span 4;
 }
 
 .grid-item-3 {
-    background-image: url('./images/1C8A0799.jpg');
+    background-image: url('./images/seafoodplate.jpg');
 }
 
 .grid-item-4 {
-    background-image: url('./images/1C8A0853.jpg');
+    background-image: url('./images/meatandvegbowl.jpg');
     grid-row: span 2;
 }
 
 .grid-item-5 {
-    background-image: url('./images/QCHD1glo.jpg');
+    background-image: url('./images/meatcloseup.jpg');
 }
 
 .grid-item-6 {
