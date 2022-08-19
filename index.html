@@ -53,12 +53,23 @@
             <p>2000 Sawtelle Blvd</p>
             <p>Los Angeles, CA 90025</p>
             <p>(310) 235-2120</p>
+            <div class="socials">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fas fa-envelope"></i>
+            </div>
         </div>
-        <div class="socials">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fas fa-envelope"></i>
-        </div>
+        <form action="submit">
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        
     </footer>
 </body>
 </html>
