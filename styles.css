@@ -194,6 +194,14 @@ input {
     font-size: 1.2rem;
 }
 
+input:focus {
+    outline-color: #b40000;
+}
+
+textarea:focus {
+    outline-color: #b40000;
+}
+
 .submit-button {
     border: none;
     border-radius: 5px;
