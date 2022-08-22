@@ -260,6 +260,7 @@ textarea:focus {
     }
 
     .arrow {
+        bottom: 100px;
         left: 45%;
     }
 
