@@ -105,17 +105,17 @@ ul {
 }
 
 .gallery {
-    height: 100vh;
+    height: 50vh;
     padding: 10rem 10rem;
 }
 
 .grid {
     height: 100%;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 2rem;
 }
 
@@ -125,18 +125,18 @@ ul {
 }
 
 .grid-item-1 {
-    background-image: url('./images/fulltable.jpg');
-    grid-row: span 2;
-    grid-column: span 2;
+    background-image: url('./images/seafoodplate.jpg');
 }
 
 .grid-item-2 {
     background-image: url('./images/meatplate.jpg');
-    grid-row: span 4;
+    grid-row: span 2;
 }
 
 .grid-item-3 {
-    background-image: url('./images/seafoodplate.jpg');
+    background-image: url('./images/fulltable.jpg');
+    grid-row: span 2;
+    grid-column: span 3;
 }
 
 .grid-item-4 {
