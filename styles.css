@@ -96,12 +96,29 @@ ul {
 .info {
     background-color: white;
     font-size: 1.2rem;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    margin-left: 15%;
+    width: 100%;
+}
+
+.right {
     text-align: center;
-    padding: 50px;
+    width: 100%;
 }
 
 .info h2 {
     margin: 20px 0px;
+}
+
+.main-text {
+    margin-bottom: 1rem;
+    line-height: 2rem;
 }
 
 .gallery {
@@ -216,7 +233,51 @@ textarea:focus {
 @media screen and (max-width: 500px) {
     footer {
         flex-direction: column;
-        gap: 20px
+        gap: 20px;
+        padding: 2rem 6rem;
+    }
+
+    .content {
+        top: 20%;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-top: 4rem;
+    }
+
+    .arrow {
+        left: 45%;
+    }
+
+    .info {
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .gallery {
+        padding: 0;
+        height: auto;
+    }
+
+    .grid {
+        display: flex; 
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    .grid-item {
+        height: 50vh;
     }
 
     .logo {
