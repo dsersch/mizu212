@@ -122,8 +122,8 @@ ul {
 }
 
 .gallery {
-    height: 50vh;
-    padding: 10rem 10rem;
+    height: 100vh;
+    padding: 10rem 0rem;
 }
 
 .grid {
@@ -231,6 +231,19 @@ textarea:focus {
 }
 
 @media screen and (max-width: 500px) {
+    nav {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
     footer {
         flex-direction: column;
         gap: 20px;
