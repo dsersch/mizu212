@@ -109,19 +109,13 @@ ul {
     background-color: white;
     font-size: 1.2rem;
     padding: 4rem;
+    text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.left {
-    margin-left: 15%;
-    width: 100%;
-}
-
-.right {
-    text-align: center;
-    width: 100%;
+.info-container {
+    width: 60%;
 }
 
 .info h2 {
@@ -134,18 +128,18 @@ ul {
 }
 
 .gallery {
-    height: 100vh;
-    padding: 10rem 0rem;
+    height: 60vh;
+    padding: 5rem 0rem;
 }
 
 .grid {
     height: 100%;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .grid-item {
@@ -155,6 +149,7 @@ ul {
 
 .grid-item-1 {
     background-image: url('./images/seafoodplate.jpg');
+    grid-column: span 2;
 }
 
 .grid-item-2 {
@@ -170,15 +165,10 @@ ul {
 
 .grid-item-4 {
     background-image: url('./images/meatandvegbowl.jpg');
-    grid-row: span 2;
 }
 
 .grid-item-5 {
     background-image: url('./images/meatcloseup.jpg');
-}
-
-.grid-item-6 {
-    background-color: magenta;
 }
 
 footer {
