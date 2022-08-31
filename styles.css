@@ -108,7 +108,7 @@ ul {
 .info {
     background-color: white;
     font-size: 1.2rem;
-    padding: 4rem;
+    padding: 1rem 4rem 4rem 4rem;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -118,8 +118,10 @@ ul {
     width: 60%;
 }
 
+
+
 .info h2 {
-    margin: 20px 0px;
+    margin: 80px 0px 20px 0px;
 }
 
 .main-text {
