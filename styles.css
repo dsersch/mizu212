@@ -246,6 +246,10 @@ textarea:focus {
     .notification {
         font-size: 1rem;
     }
+
+    .hero {
+        height: 60vh;
+    }
     
     footer {
         flex-direction: column;
