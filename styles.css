@@ -92,6 +92,7 @@ ul {
     padding: 5px 20px;
     cursor: pointer;
     transition: all .3s;
+    margin-top: 3rem;
 }
 
 .hero-button:hover {
