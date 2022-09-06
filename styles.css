@@ -83,6 +83,7 @@ ul {
 .hero-button {
     background-color: #b40000;
     font-family: 'Maitree', serif;
+    font-weight: bold;
     border-radius: 50px;
     border: none;
     font-size: 2rem;
